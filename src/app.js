@@ -25,7 +25,7 @@ const limiter = rateLimit({
 });
 
 const corsOptions = {
-  origin: ["http://localhost:3000","https://shop-write-frontend.vercel.app/"],
+  origin: ["http://localhost:3000","https://shop-write-frontend.vercel.app"],
   credentials: true, 
   optionSuccessStatus: 200,
 };
